@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+#display {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 3%;
+}
+
+button {
+    padding: 10px 20px;
+    min-width: 15%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #007BFF;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+}
+
+#start {
+    background: #47cc47;
+}
+
+#stop {
+    background: #f14949;
+}
+
+#reset {
+    background: #908e8e;
+}
+
+#start:hover,
+#stop:hover,
+#reset:hover {
+    background-color: #007BFF;
+    box-shadow: 0px 15px 20px rgba(55, 190, 224, 0.4);
+    transform: translateY(-4px);
+}
+
+#start:active,
+#stop:active,
+#reset:active {
+    background-color: #004085;
+}
